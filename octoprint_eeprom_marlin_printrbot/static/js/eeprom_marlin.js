@@ -9,7 +9,7 @@ $(function() {
         self.connection = parameters[1];
 
         self.firmwareRegEx = /FIRMWARE_NAME:[^\s]+/i;
-        self.marlinRegEx = /Marlin[^\s]*/i;
+        self.marlinRegEx = /PB[^\s]*/i;
 
         self.eepromM92RegEx = /M92 ([X])(.*)[^0-9]([Y])(.*)[^0-9]([Z])(.*)[^0-9]([E])(.*)/;
         self.eepromM203RegEx = /M203 ([X])(.*)[^0-9]([Y])(.*)[^0-9]([Z])(.*)[^0-9]([E])(.*)/;
